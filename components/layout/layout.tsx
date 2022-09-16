@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../footer/footer';
 import Header from '../header/header';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -8,6 +9,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <main>
                 {children}
             </main>
+            <Footer />
         </div>
     )
 }
