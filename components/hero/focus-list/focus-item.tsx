@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useCallback, useEffect, useReducer, useRef, useState } from 'react'
 
 enum Actions {
@@ -26,14 +27,14 @@ function reducer(state: TState, action: TAction) {
     }
 }
 
-const FocusItem: React.FC<{ text: string, initialSpeed: number }> = ({ text, initialSpeed }) => {
+const FocusItem: React.FC<{ item: { text: string, link: string }, initialSpeed: number }> = ({ item, initialSpeed }) => {
     const [animation, setIndex] = useState({
         index: 0,
         speed: initialSpeed,
     });
 
     useEffect(() => {
-        if (animation.index > text.length) {
+        if (animation.index > item.text.length) {
             return undefined;
         } else {
             setTimeout(() => {
@@ -43,11 +44,15 @@ const FocusItem: React.FC<{ text: string, initialSpeed: number }> = ({ text, ini
                 }))
             }, initialSpeed)
         }
-    }, [animation.index, text, initialSpeed])
+    }, [animation.index, item, initialSpeed])
 
     return (
         <>
-            <p className={`${animation.index < text.length && 'animate-pulse'}`}>{text.substring(0, animation.index)}</p>
+            <p className={`hover:scale-110 transition-all duration-300 active:scale-95 `}>
+                <Link href={item.link}>
+                    <a>C:\Users\marioyordanov&gt;<span className={`${animation.index < item.text.length && 'animate-pulse'} text-primary`}>{item.text.substring(0, animation.index)}</span></a>
+                </Link>
+            </p>
         </>
     )
 }
