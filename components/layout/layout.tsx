@@ -4,7 +4,7 @@ import Header from '../header/header';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
-        <div>
+        <div className='bg-primary text-primary-content'>
             <Header />
             <main>
                 {children}

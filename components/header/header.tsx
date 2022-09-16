@@ -30,9 +30,9 @@ const Header = () => {
     ]
 
     return (
-        <header className='h-20  bg-primary text-primary-content'>
+        <header className='h-20'>
             <div className='m-auto h-full max-w-7xl'>
-                <div className='flex h-full min-w-full justify-between px-3'>
+                <div className='flex h-full min-w-full justify-between px-5'>
                     <div className='flex h-full items-center text-2xl font-black uppercase gap-4 '>
                         <Link href='/' ><Image className='hover:cursor-pointer transition-all' src='/images/site/profile-pic-80.png' alt='profile picture' width={60} height={60} /></Link>
                         <Link href='/' >
