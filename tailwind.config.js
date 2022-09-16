@@ -9,8 +9,8 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'primary': colors.lime[700],
-                'primary-focus': colors.lime[800],
+                'primary': colors.slate[200],
+                'primary-focus': colors.slate[500],
                 'primary-content': colors.slate[700],
                 'secondary': colors.lime[500],
                 'secondary-focus': colors.lime[400],
