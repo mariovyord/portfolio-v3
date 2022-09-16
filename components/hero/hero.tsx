@@ -4,7 +4,7 @@ import SocialSidebar from '../social-sidebar/social-sidebar'
 
 const Hero = () => {
     return (
-        <section className='w-full bg-primary min-h-[calc(100vh-80px)] flex flex-col justify-between pt-8'>
+        <section className='w-full min-h-[calc(100vh-80px)] flex flex-col justify-between pt-8'>
             <SocialSidebar />
             <div className='mx-auto my-0 w-fit'>
                 <h1 className='font-bold text-4xl mb-5'>👋 Hi, I&apos;m Mario</h1>

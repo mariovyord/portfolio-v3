@@ -18,7 +18,7 @@ const AboutMe = () => {
     ]
 
     return (
-        <section className='bg-primary text-primary-content'>
+        <section className=''>
             <h1 className='font-black uppercase text-5xl text-center'>About me</h1>
             <p className='text-center italic text-xl'>Im focues on Fron End with Raeeactj as dpka skdpas pdas ldas </p>
             <div>
