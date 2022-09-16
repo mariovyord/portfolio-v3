@@ -1,7 +1,7 @@
 const SocialSidebar = () => {
     return (
-        <aside className="absolute h-screen w-fit top-0 flex flex-col justify-center -translate-x-24 hover:translate-x-0 transition-all">
-            <div className="fill-primary-content text-primary-content p-2 bg-primary rounded-r-lg">
+        <aside className="absolute h-screen w-fit left-0 top-0 flex flex-col justify-center -translate-x-24 hover:translate-x-0 transition-all ">
+            <div className="fill-primary-content text-primary-content p-2 bg-primary rounded-r-lg shadow">
                 <div className=" hover:fill-primary-focus hover:text-primary-focus">
                     <a className="flex gap-4 text-right font-black items-center" href="https://github.com/mariovyord" target="_blank" rel="noreferrer">
                         <div className="w-20">GitHub</div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Projects = () => {
     return (
-        <section className='bg-primary text-primary-content'>
+        <section className='min-h-screen'>
             <h1 className='font-black uppercase text-5xl text-center'>Projects</h1>
             <p className='text-center italic text-xl'>My projects and such </p>
             <div>
