@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <section id="contact" className='min-h-screen py-24 px-2'>
+        <section id="contact" className='py-24 px-2'>
             <h2 className='font-black uppercase text-5xl text-center mb-4'>Contact</h2>
             <p className='text-center italic text-xl mb-6'>Pick wisely</p>
             <div className='fill-primary-content text-primary-content p-2 flex flex-wrap md:flex-nowrap w-full gap-2'>
@@ -30,6 +30,14 @@ const Contact = () => {
                         <div className="">Email</div>
                     </a>
                 </div>
+            </div>
+            <div className='flex justify-center items-center p-16 '>
+                <a
+                    className='w-fit mx-auto italic hover:text-primary active:text-sm flex'
+                    href="#top"
+                >
+                    expect(<div className='text-primary animate-bounce'>BACK_TO_TOP</div>).toBe(true);
+                </a>
             </div>
         </section>
     )
