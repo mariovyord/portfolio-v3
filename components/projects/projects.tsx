@@ -1,16 +1,19 @@
 import React from 'react'
+import { projects } from '../../data/site/projects'
+import ArrowNextSection from '../utils/arrow-next-section'
+import ProjectCard from './project-card'
 
 export const Projects = () => {
     return (
-        <section id="projects" className='min-h-screen'>
-            <h1 className='font-black uppercase text-5xl text-center'>Projects</h1>
-            <p className='text-center italic text-xl'>My projects and such </p>
-            <div>
-                <div>
-                    <h2>Super Calculator</h2>
-                    <p>Very nice</p>
-                </div>
+        <section id="projects" className='min-h-screen py-24 px-2'>
+            <h2 className='font-black uppercase text-5xl text-center mb-4'>Projects</h2>
+            <p className='text-center italic text-xl mb-2'>Small collection</p>
+            <div className='px-4 py-8'>
+                {projects.map((pr, i) => {
+                    return <ProjectCard key={i} project={pr} reverse={i % 2 == 0 ? false : true} />
+                })}
             </div>
+            <ArrowNextSection link={"#contacts"} />
         </section>
     )
 }
