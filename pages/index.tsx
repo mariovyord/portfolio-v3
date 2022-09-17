@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import AboutMe from '../components/about-me/about-me'
+import About from '../components/about-me/about-me'
 import Hero from '../components/hero/hero'
 import Submenu from '../components/hero/submenu'
 import { Projects } from '../components/projects/projects'
@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         <>
             <Hero />
             <Submenu />
-            <AboutMe />
+            <About />
             <Projects />
         </>
     )
