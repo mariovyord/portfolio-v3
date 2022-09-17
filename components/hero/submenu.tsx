@@ -13,9 +13,9 @@ const Submenu = () => {
                     <a className='active:text-sm inline-block w-28 text-center py-2  hover:text-primary-focus'>
                         &gt;Projects</a>
                 </Link>
-                <Link href="#contacts">
+                <Link href="#contact">
                     <a className='active:text-sm inline-block w-28 text-center py-2  hover:text-primary-focus border-l-2 border-primary-content'>
-                        &gt;Contacts</a>
+                        &gt;Contact</a>
                 </Link>
             </div>
         </div>

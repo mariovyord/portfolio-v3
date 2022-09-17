@@ -13,7 +13,7 @@ export const Projects = () => {
                     return <ProjectCard key={i} project={pr} reverse={i % 2 == 0 ? false : true} />
                 })}
             </div>
-            <ArrowNextSection link={"#contacts"} />
+            <ArrowNextSection link={"#contact"} />
         </section>
     )
 }
