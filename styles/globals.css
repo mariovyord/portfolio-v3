@@ -11,6 +11,7 @@
     html {
         font-family: 'JetBrains Mono', monospace;
         scrollbar-width: thin;
+        scrollbar-color: #84cc16 #1e293b;
         cursor: url(/images/cursor/cursor-standart.svg), auto;
     }
 
