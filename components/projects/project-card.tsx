@@ -25,7 +25,7 @@ const ProjectCard: React.FC<{ project: TProject, reverse: boolean }> = ({ projec
                             <a href={project.links.github} className='text-primary font-bold hover:text-primary-focus fill-primary hover:fill-primary-focus'>GitHub</a>
                         </div>
                     </div>
-                    <div className='px-4 py-2 flex gap-2'>
+                    <div className='px-4 py-2 flex flex-wrap gap-2'>
                         {project.tech.map(x => <div key={x} className='p-2 bg-slate-500 h-fit w-fit rounded-md'>{x}</div>)}
                     </div>
                 </div>
