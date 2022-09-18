@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+    * {
+        font-variant-ligatures: none;
+    }
+
     html {
         font-family: 'JetBrains Mono', monospace;
         scrollbar-width: thin;
