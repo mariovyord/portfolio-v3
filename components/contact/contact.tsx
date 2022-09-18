@@ -33,7 +33,7 @@ const Contact = () => {
             </div>
             <div className='flex justify-center items-center p-16 '>
                 <a
-                    className='w-fit mx-auto italic hover:text-primary active:text-sm flex'
+                    className='w-fit mx-auto italic active:text-sm flex hover:text-slate-400'
                     href="#top"
                 >
                     expect(<div className='text-primary animate-bounce'>BACK_TO_TOP</div>).toBe(true);
