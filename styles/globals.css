@@ -6,6 +6,11 @@
     html {
         font-family: 'JetBrains Mono', monospace;
         scrollbar-width: thin;
+        cursor: url(/images/cursor/cursor-standart.svg), auto;
+    }
+
+    a[href], button, input[type="checkbox"], input[type="image"], input[type="submit"], label[for], select {
+        cursor: url(/images/cursor/cursor-pointer.svg), auto;
     }
   }
 
