@@ -5,6 +5,7 @@
 @layer base {
     * {
         font-variant-ligatures: none;
+        font-feature-settings: "liga" 0;
     }
 
     html {
