@@ -14,7 +14,7 @@
     }
   }
 
-.bg-sci-fi {
+ .bg-sci-fi {
     background-image: linear-gradient(to right bottom,rgba(5, 16, 11, 0.8),rgba(5, 16, 5, 0.8)),url(/images/site/19333449.jpg);
     background-position: top;
     background-size: contain; 
