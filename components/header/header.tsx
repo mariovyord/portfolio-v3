@@ -53,12 +53,12 @@ const Header = () => {
                         <div onClick={() => toggleHamburger()} className='h-full sm:hidden'>
                             <div className='flex h-full w-8 cursor-pointer items-center'>
                                 <div className={`${state.toggle ? 'flex' : 'flex flex-col'} gap-1`}>
-                                    <div className={`${state.toggle && 'absolute right-3 rotate-45'} h-1 w-8 bg-primary-content transition-all`}></div>
-                                    <div className={`${state.toggle ? '' : 'h-1 w-8'} bg-primary-content transition-all `}></div>
-                                    <div className={`${state.toggle && 'absolute right-3 -rotate-45'} h-1 w-8 bg-primary-content transition-all`}></div>
+                                    <div className={`${state.toggle && 'absolute right-3 rotate-45'} h-1 w-8 bg-primary transition-all`}></div>
+                                    <div className={`${state.toggle ? '' : 'h-1 w-8'} bg-primary transition-all `}></div>
+                                    <div className={`${state.toggle && 'absolute right-3 -rotate-45'} h-1 w-8 bg-primary transition-all`}></div>
                                 </div>
                             </div>
-                            {state.toggle && <ul className={`absolute top-20 left-0 w-screen bg-primary p-5 text-center `}>
+                            {state.toggle && <ul className={`absolute top-20 left-0 w-screen bg-base p-5 text-center`}>
                                 {links.map(
                                     link => <li key={link.title} className='flex items-center'>
                                         <Link href={link.link}>
