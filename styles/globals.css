@@ -48,4 +48,8 @@
     transform: rotateY(0deg) scale(1) rotateX(0deg);
 }
 
-
+@layer components {
+    .h2 {
+      @apply font-black uppercase text-5xl text-center mb-4;
+    }
+  }
