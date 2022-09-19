@@ -10,8 +10,9 @@ module.exports = {
         extend: {
             colors: {
                 'primary': colors.lime[500],
-                'primary-focus': colors.lime[900],
+                'primary-focus': colors.lime[600],
                 'primary-content': colors.slate[800],
+                'primary-content-focus': colors.lime[900],
                 'accent': colors.fuchsia[500],
                 'accent-focus': colors.fuchsia[600],
                 'accent-content': colors.slate[900],

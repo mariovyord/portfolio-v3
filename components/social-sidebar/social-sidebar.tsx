@@ -2,7 +2,7 @@ const SocialSidebar = () => {
     return (
         <aside className="hidden sm:absolute h-screen w-fit left-0 top-0 sm:flex sm:flex-col justify-center -translate-x-24 hover:translate-x-0 transition-all ">
             <div className="fill-primary-content text-primary-content p-2 bg-primary rounded-r-lg shadow">
-                <div className=" hover:fill-primary-focus hover:text-primary-focus">
+                <div className=" hover:fill-primary-content-focus hover:text-primary-content-focus">
                     <a className="flex gap-4 text-right font-black items-center" href="https://github.com/mariovyord" target="_blank" rel="noreferrer">
                         <div className="w-20">GitHub</div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
@@ -10,7 +10,7 @@ const SocialSidebar = () => {
                         </svg>
                     </a>
                 </div>
-                <div className="my-2 hover:fill-primary-focus hover:text-primary-focus">
+                <div className="my-2 hover:fill-primary-content-focus hover:text-primary-content-focus">
                     <a className="flex gap-4 text-right font-black items-center" href="https://www.linkedin.com/in/mariovyordanov/" target="_blank" rel="noreferrer">
                         <div className="w-20">LinkedIn</div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
@@ -18,7 +18,7 @@ const SocialSidebar = () => {
                         </svg>
                     </a>
                 </div>
-                <div className=" hover:fill-primary-focus hover:text-primary-focus" >
+                <div className=" hover:fill-primary-content-focus hover:text-primary-content-focus" >
                     <a className="flex gap-4 text-right font-black items-center" href="mailto:mariovyordanov@gmail.com" target="_blank" rel="noreferrer">
                         <div className="w-20">Email</div>
                         <svg width="35" height="35" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
