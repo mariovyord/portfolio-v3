@@ -2,7 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 import SocialSidebar from '../social-sidebar/social-sidebar'
 import FocusList from './focus-list/focus-list'
-import Submenu from './submenu'
 
 const Hero = () => {
     return (
