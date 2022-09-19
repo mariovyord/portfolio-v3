@@ -19,10 +19,6 @@ export const skills: TSkill[] = [
         classes: 'border-primary'
     },
     {
-        skillName: 'Next.js',
-        classes: 'border-primary'
-    },
-    {
         skillName: 'HTML / CSS',
         classes: 'border-primary'
     },
