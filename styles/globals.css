@@ -31,7 +31,7 @@
     transform: perspective(800px) rotateY(-25deg) scale(.8) rotateX(10deg);
     -webkit-transform: perspective(800px) rotateY(-25deg) scale(.8) rotateX(10deg);
     transition: all .6s ease;
-    z-index: 100;
+    z-index: 40;
 }
 
 .project-img:hover {
@@ -42,7 +42,7 @@
     transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
     -webkit-transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
     transition: all .6s ease;
-    z-index: 100;
+    z-index: 40;
 }
 
 .project-img-reversed:hover {
