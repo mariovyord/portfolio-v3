@@ -17,6 +17,6 @@ That's my personal website. It includes:
 
 ## Future Goals
 
-- Some Next.js optimizations
-- Build the blog
-- Test on different devices some more
+- [ ] Next.js optimizations
+- [ ] Build the blog
+- [ ] Test on different devices some more
