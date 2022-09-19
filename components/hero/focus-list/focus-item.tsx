@@ -1,31 +1,5 @@
 import Link from 'next/link';
-import React, { useCallback, useEffect, useReducer, useRef, useState } from 'react'
-
-enum Actions {
-    ADD = 'ADD',
-    REMOVE = 'REMOVE',
-}
-
-type TAction = {
-    type: Actions;
-    payload?: string;
-}
-
-type TState = string;
-
-const initialState: TState = '';
-
-function reducer(state: TState, action: TAction) {
-    switch (action.type) {
-        case Actions.ADD:
-            if (!action.payload) return state;
-            return state + action.payload;
-        case Actions.REMOVE:
-            return state.substring(0, state.length - 1)
-        default:
-            return state;
-    }
-}
+import React, { useEffect, useState } from 'react'
 
 const FocusItem: React.FC<{ item: { text: string, link: string }, initialSpeed: number }> = ({ item, initialSpeed }) => {
     const [animation, setIndex] = useState({
