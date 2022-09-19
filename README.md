@@ -14,3 +14,9 @@ That's my personal website. It includes:
 - TypeScript
 - Next.js
 - TailwindCSS
+
+## Future Goals
+
+- Some Next.js optimizations
+- Build the blog
+- Test on different devices some more
