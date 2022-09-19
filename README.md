@@ -2,8 +2,8 @@
 
 That's my personal website. It includes:
 
-- Portfolio
-- Blog
+- [x] Portfolio
+- [ ] Blog
 
 ## Demo
 
