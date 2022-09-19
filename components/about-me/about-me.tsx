@@ -1,6 +1,6 @@
 import React from 'react'
 import SkillCard from './skill-card';
-import { skills } from '../../data/site/about';
+import { skills, js } from '../../data/site/about';
 import ArrowNextSection from '../utils/arrow-next-section';
 
 const About = () => {
@@ -34,13 +34,14 @@ const About = () => {
     return (
         <section id="about" className='pb-2 pt-24 px-2'>
             <h2 className='h2'>About</h2>
-            <p className='text-center italic text-xl mb-2'>React and Express on the tech side, books on the physical -<br /> you can&apos;t go wrong</p>
+            <p className='text-center italic text-xl mb-2'>React and Express on the tech side,<br /> books on the physical</p>
             <div className='grid grid-cols-1 sm:grid-cols-2 px-4 py-8 gap-8'>
                 {biography}
                 <div>
                     <div className='flex flex-wrap gap-3 items-start justify-start'>
-                        {skills.map((skill) => (
-                            <SkillCard key={skill.skillName} skill={skill} classes={skill.classes} />
+                        <div className='-rotate-6 scale-150'><SkillCard skill={js} classes={js.classes} indicator={true} /></div>
+                        {skills.map((skill, i) => (
+                            <SkillCard key={skill.skillName} skill={skill} classes={skill.classes} indicator={false} />
                         ))}
                     </div>
                 </div>

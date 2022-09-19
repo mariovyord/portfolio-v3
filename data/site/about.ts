@@ -1,10 +1,11 @@
 import { TSkill } from "../../types/types";
 
+export const js: TSkill = {
+    skillName: 'JavaScript',
+    classes: 'border-primary'
+}
+
 export const skills: TSkill[] = [
-    {
-        skillName: 'JavaScript',
-        classes: 'border-primary'
-    },
     {
         skillName: 'TypeScript',
         classes: 'border-primary'
