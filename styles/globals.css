@@ -35,7 +35,7 @@
 }
 
 .project-img:hover {
-    transform: rotateY(0deg) scale(1) rotateX(0deg);
+    transform: rotateY(0deg) scale(0.95) rotateX(0deg);
 }
 
 .project-img-reversed {
@@ -46,7 +46,7 @@
 }
 
 .project-img-reversed:hover {
-    transform: rotateY(0deg) scale(1) rotateX(0deg);
+    transform: rotateY(0deg) scale(0.95) rotateX(0deg);
 }
 
 .move {

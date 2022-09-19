@@ -4,9 +4,9 @@ import { TProject } from '../../types/types'
 
 const ProjectCard: React.FC<{ project: TProject, reverse: boolean }> = ({ project, reverse }) => {
     return (
-        <div className={`flex flex-col gap-4  ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
+        <div className={`flex flex-col gap-4 overflow-visible ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
             <div className=''>
-                <Image className={`rounded-xl border-2 border-primary ${reverse ? 'project-img-reversed' : 'project-img'}`} src={project.img} width={600} height={350} alt="screenshot of social media app" />
+                <Image className={`outline outline-2 outline-slate-400 rounded-md border-2 border-primary ${reverse ? 'project-img-reversed' : 'project-img'}`} src={project.img} width={600} height={350} alt="screenshot of social media app" />
             </div>
             <div className={`flex items-center max-w-3xl p-4`}>
                 <div className={`flex flex-col ${reverse ? 'items-end' : 'items-start'}`}>
@@ -19,10 +19,10 @@ const ProjectCard: React.FC<{ project: TProject, reverse: boolean }> = ({ projec
                     </div>
                     <div className='px-4 py-2 flex gap-4'>
                         <div>
-                            <a href={project.links.demo} className='text-primary font-bold hover:text-primary-focus fill-primary hover:fill-primary-focus'>Demo</a>
+                            <a target="_blank" rel="noreferrer" href={project.links.demo} className='text-primary font-bold hover:text-primary-focus fill-primary hover:fill-primary-focus'>Demo</a>
                         </div>
                         <div>
-                            <a href={project.links.github} className='text-primary font-bold hover:text-primary-focus fill-primary hover:fill-primary-focus'>GitHub</a>
+                            <a target="_blank" rel="noreferrer" href={project.links.github} className='text-primary font-bold hover:text-primary-focus fill-primary hover:fill-primary-focus'>GitHub</a>
                         </div>
                     </div>
                     <div className='px-4 py-2 flex flex-wrap gap-2'>
