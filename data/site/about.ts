@@ -39,7 +39,11 @@ export const skills: TSkill[] = [
         classes: 'border-primary'
     },
     {
-        skillName: 'Jest / Testing Library',
+        skillName: 'Jest',
+        classes: 'border-primary'
+    },
+    {
+        skillName: 'Testing Library',
         classes: 'border-primary'
     },
     {
