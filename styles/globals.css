@@ -15,7 +15,7 @@
         cursor: url(/images/cursor/cursor-standart.svg), auto;
     }
 
-    a[href], button, input[type="checkbox"], input[type="image"], input[type="submit"], label[for], select {
+    a[href], button, input[type="checkbox"], input[type="image"], input[type="submit"], label[for], select, .pointer {
         cursor: url(/images/cursor/cursor-pointer.svg), auto;
     }
   }

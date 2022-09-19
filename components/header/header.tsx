@@ -34,7 +34,9 @@ const Header = () => {
             <div className='m-auto h-full max-w-screen-2xl text-primary'>
                 <div className='flex h-full min-w-full justify-between px-5'>
                     <div className='flex h-full items-center text-2xl font-black uppercase gap-4 '>
-                        <Link href='/' ><Image className='hover:cursor-pointer transition-all' src='/images/site/profile-pic-80.png' alt='profile picture' width={60} height={60} /></Link>
+                        <Link href='/' >
+                            <Image className='pointer hover:cursor-pointer transition-all' src='/images/site/profile-pic.png' alt='profile picture' width={50} height={50} />
+                        </Link>
                         <Link href='/' >
                             <a className='hidden sm:inline hover:text-primary-focus'>Mario Yordanov</a>
                         </Link>
@@ -51,7 +53,7 @@ const Header = () => {
                             </ul>
                         </div>
                         <div onClick={() => toggleHamburger()} className='h-full sm:hidden'>
-                            <div className='flex h-full w-8 cursor-pointer items-center'>
+                            <div className='flex h-full w-8 cursor-pointer items-center pointer '>
                                 <div className={`${state.toggle ? 'flex' : 'flex flex-col'} gap-1`}>
                                     <div className={`${state.toggle && 'absolute right-3 rotate-45'} h-1 w-8 bg-primary transition-all`}></div>
                                     <div className={`${state.toggle ? '' : 'h-1 w-8'} bg-primary transition-all `}></div>
