@@ -47,7 +47,7 @@ const ArticleContent: React.FC<{ article: TArticle }> = ({ article }) => {
                 children={article.content}
                 // @ts-ignore
                 components={renderers}
-            />,
+            />
         </div >
     )
 }
