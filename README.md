@@ -3,7 +3,7 @@
 That's my personal website. It includes:
 
 - [x] Portfolio
-- [ ] Blog
+- [x] Blog
 
 ## Demo
 
@@ -17,6 +17,6 @@ That's my personal website. It includes:
 
 ## Future Goals
 
+- [x] Build the blog
 - [ ] Next.js optimizations
-- [ ] Build the blog
 - [ ] Test on different devices some more
