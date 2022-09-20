@@ -5,7 +5,7 @@ import Tag from '../article-preview/tag';
 const ArticleHeader: React.FC<{ article: TArticle }> = ({ article }) => {
     return (
         <header className="mb-8">
-            <h2 className="font-black text-4xl hover:underline mb-6">
+            <h2 className="font-black text-4xl mb-6">
                 {article.title}
             </h2>
             <p className='mb-3'>{article.date}</p>
