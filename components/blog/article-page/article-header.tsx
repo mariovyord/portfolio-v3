@@ -1,16 +1,18 @@
-import React from 'react'
+import React from 'react';
+import { TArticle } from '../../../types/types';
+import Tag from '../article-preview/tag';
 
-const ArticleHeader = () => {
+const ArticleHeader: React.FC<{ article: TArticle }> = ({ article }) => {
     return (
         <header className="border-2 rounded-md p-4">
             <h2 className="font-black text-3xl hover:underline mb-2">
-                Ultimate React Router v6 Guide
+                {article.title}
             </h2>
-            <p className='mb-3'>25 September 2022</p>
+            <p className='mb-3'>{article.date}</p>
             <div className='mb-3'>
-                <span className='border-2 rounded-xl py-1 px-2 text-sm bg-slate-700'>React</span>
+                {article.tags.map(x => <Tag key={x} tagName={x} />)}
             </div>
-            <p className="mb-2">React Router is by far the most popular routing library in React and this article goes in depth on everything you need to know about React Router.</p>
+            <p className="mb-2">{article.excerpt}</p>
         </header>
     )
 }
