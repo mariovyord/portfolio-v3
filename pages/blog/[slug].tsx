@@ -8,8 +8,8 @@ import { TArticle } from "../../types/types";
 const BlogArticle: React.FC<{ article: TArticle }> = ({ article }) => {
     return (
         <div className="min-h-[calc(100vh_-_232px)]">
-            <section className="mx-auto max-w-3xl ">
-                <article className='my-12'>
+            <section className="mx-auto max-w-3xl p-6">
+                <article>
                     <ArticleHeader article={article} />
                     <ArticleContent content={article.content} />
                 </article>
@@ -17,7 +17,7 @@ const BlogArticle: React.FC<{ article: TArticle }> = ({ article }) => {
             <section className="mx-auto max-w-3xl">
                 <ArticleFooter />
             </section>
-        </div>
+        </div >
     )
 }
 export const getStaticProps: GetStaticProps = (context) => {
