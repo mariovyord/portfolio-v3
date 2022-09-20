@@ -7,19 +7,20 @@ import { TArticle } from "../../types/types";
 
 const BlogArticle: React.FC<{ article: TArticle }> = ({ article }) => {
     return (
-        <div className="min-h-[calc(100vh_-_232px)]">
-            <section className="mx-auto max-w-3xl p-6">
+        <div className="min-h-[calc(100vh_-_232px)] px-6">
+            <section className="mx-auto max-w-3xl py-6">
                 <article>
                     <ArticleHeader article={article} />
-                    <ArticleContent content={article.content} />
+                    <ArticleContent article={article} />
                 </article>
             </section>
-            <section className="mx-auto max-w-3xl">
+            <section className="mx-auto max-w-3xl py-6">
                 <ArticleFooter />
             </section>
         </div >
     )
 }
+
 export const getStaticProps: GetStaticProps = (context) => {
     const { params } = context;
     const { slug } = params as { slug: string };
@@ -37,6 +38,7 @@ export const getStaticProps: GetStaticProps = (context) => {
 export const getStaticPaths = () => {
     const articlesFiles = getArticlesFiles();
     const slugs = articlesFiles.map(x => x.replace(/\.md$/, ''));
+
     return {
         paths: slugs.map(slug => ({
             params: {
