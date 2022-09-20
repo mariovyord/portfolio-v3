@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
+import React from 'react';
 
 const ArticleFooter = () => {
     return (
@@ -16,4 +16,4 @@ const ArticleFooter = () => {
     )
 }
 
-export default ArticleFooter
+export default ArticleFooter;

@@ -10,7 +10,7 @@ const ArticlePreview: React.FC<{ article: TArticle }> = ({ article }) => {
         year: 'numeric',
     });
 
-    const linkPath = `/data/articles/${article.slug}`;
+    const linkPath = `/blog/${article.slug}`;
 
     return (
         <article className='my-20'>

@@ -1,10 +1,7 @@
-import React from 'react'
-import { TArticle } from '../../../types/types'
-import ArticleContent from './article-content'
-import ArticleFooter from './article-footer'
-import ArticleHeader from './article-header'
-
-
+import React from 'react';
+import { TArticle } from '../../../types/types';
+import ArticleContent from './article-content';
+import ArticleHeader from './article-header';
 
 const ArticleDetails: React.FC<{ article: TArticle }> = ({ article }) => {
     return (
@@ -15,4 +12,4 @@ const ArticleDetails: React.FC<{ article: TArticle }> = ({ article }) => {
     )
 }
 
-export default ArticleDetails
+export default ArticleDetails;
