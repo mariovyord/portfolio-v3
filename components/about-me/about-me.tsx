@@ -33,7 +33,7 @@ const About = () => {
 
     return (
         <section id="about" className='pb-2 pt-24 px-2'>
-            <h2 className='h2'>About</h2>
+            <h2 className='font-black uppercase text-5xl text-center mb-4'>About</h2>
             <p className='text-center italic text-xl mb-2'>React and Express on the tech side,<br /> books on the physical</p>
             <div className='grid grid-cols-1 sm:grid-cols-2 px-4 py-8 gap-8'>
                 {biography}
