@@ -27,6 +27,10 @@ module.exports = {
                 'warning-content': colors.amber[100],
                 'error': colors.red[700],
                 'error-content': colors.red[100],
+            },
+            fontFamily: {
+                serif: ['Libre Baskerville', 'Georgia', 'serif'],
+                mono: ['JetBrains Mono', 'mono'],
             }
         },
     },
