@@ -93,3 +93,18 @@
       @apply font-black uppercase text-5xl text-center mb-4;
     }
   }
+
+.astronaut-animated {
+    animation: astronaut 3s infinite;
+}
+
+@keyframes astronaut {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(5,0,1,1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
