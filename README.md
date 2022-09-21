@@ -19,4 +19,9 @@ That's my personal website. It includes:
 
 - [x] Build the blog
 - [ ] Add comments section to blog
-- [ ] Next.js optimizations
+
+## Screenshots
+
+![hero section](./screenshots/hero.png)
+![projects section](./screenshots/projects.png)
+![404 page](./screenshots/404.png)
