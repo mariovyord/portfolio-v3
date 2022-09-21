@@ -27,7 +27,7 @@ const custom404 = () => {
                             alt='astronaut'
                         />
                     </div>
-                    <div className='absolute top-48'>
+                    <div className='absolute top-48 z-50'>
                         <Image
                             src='/images/site/planet.svg'
                             width={400}
