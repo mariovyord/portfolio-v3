@@ -11,6 +11,10 @@ const Home: NextPage = () => {
         <>
             <Head>
                 <title>Mario Yordanov</title>
+                <meta
+                    name="description"
+                    content="Portfolio."
+                />
             </Head>
             <Hero />
             <Submenu />
