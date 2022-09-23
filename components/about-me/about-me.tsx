@@ -1,7 +1,7 @@
 import React from 'react'
 import SkillCard from './skill-card';
 import { skills, js } from '../../data/site/about';
-import ArrowNextSection from '../utils/arrow-next-section';
+import ArrowNextSection from '../common/arrow-next-section';
 import SectionHeading from '../common/section-heading';
 
 const About = () => {

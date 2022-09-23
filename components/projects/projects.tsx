@@ -1,7 +1,7 @@
 import React from 'react'
 import { projects } from '../../data/site/projects'
 import SectionHeading from '../common/section-heading'
-import ArrowNextSection from '../utils/arrow-next-section'
+import ArrowNextSection from '../common/arrow-next-section'
 import ProjectCard from './project-card'
 
 export const Projects = () => {
