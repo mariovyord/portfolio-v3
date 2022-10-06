@@ -1,10 +1,10 @@
-import React, { useReducer, useState } from 'react'
+import React from 'react'
 import FocusItem from './focus-item';
 
 const FocusList = () => {
     const list = [
-        { link: '#about', text: 'focusing on Front-End w/ ReactJS' },
-        { link: '#about', text: 'currenly learning Next.js' },
+        { link: '#about', text: 'focusing on JavaScript and TypeScript' },
+        { link: '#about', text: 'currenly learning Angular' },
         { link: '#about', text: 'studying at SoftUni Bulgaria' },
         { link: '#about', text: 'welcome to my website :)' },
     ];
