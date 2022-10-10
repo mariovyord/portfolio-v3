@@ -10,10 +10,10 @@ const About = () => {
             <p>const <span className='text-orange-400 hover:scale-125 inline-block transition-all bg-base'>FrontEndDeveloper</span> = ( &#123; ReactJS &#125; ) =&gt; &#123;</p>
             <p className=' pl-4'>return (</p>
             <p className='pl-8'>
-                Hey! I enjoy building web apps with  <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>ReactJS</span>. MERN stack as a whole is pretty fun. I study JavaScript and its ecosystem at <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>SoftUni Bulgaria</span> and on my own. My professional experience is in print as a Prepress Specialist, where I have worked on hundreds of books over the years.
+                Hey! I enjoy building web apps with  <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>ReactJS</span>. Express, Node, MongoDB are fun as well. I study JavaScript and its ecosystem at <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>SoftUni Bulgaria</span> and on my own. My professional experience is in print as a Prepress Specialist, where I have worked on hundreds of books over the years.
             </p>
             <p className='pl-8'>
-                My main goal is growing as a <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>Front-End Developer</span>. But of course as the famous quote goes:
+                My short-term goal is growing as a <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>Front-End Developer</span>. But as the famous quote goes:
             </p>
             <div className='p-4 text-center relative fill-primary flex gap-3 pl-8'>
                 <div className='animate-pulse'>
@@ -37,7 +37,7 @@ const About = () => {
             <SectionHeading>
                 About
             </SectionHeading>
-            <p className='text-center italic text-xl mb-2'>React and Express on the tech side,<br /> books on the physical</p>
+            <p className='text-center italic text-xl mb-2'>{'"'}Always bet on JavaScript{'"'} <br />(and TypeScript I shall say) </p>
             <div className='grid grid-cols-1 sm:grid-cols-2 px-4 py-8 gap-8'>
                 {biography}
                 <div>
