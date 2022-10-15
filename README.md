@@ -18,6 +18,7 @@ That's my personal website. It includes:
 ## Future Goals
 
 - [x] Build the blog
+- [x] Write first article
 - [ ] Add comments section to blog
 
 ## Screenshots
