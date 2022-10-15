@@ -37,7 +37,7 @@ const About = () => {
             <SectionHeading>
                 About
             </SectionHeading>
-            <p className='text-center italic text-xl mb-2'>{'"'}Always bet on JavaScript{'"'} <br />(and TypeScript I shall say) </p>
+            <p className='text-center italic text-xl mb-2'>{'"'}Always bet on JavaScript{'"'} <br />(and TypeScript) </p>
             <div className='grid grid-cols-1 sm:grid-cols-2 px-4 py-8 gap-8'>
                 {biography}
                 <div>

@@ -1,7 +1,7 @@
 export type TSkill = {
     skillName: string,
     classes: string,
-}
+};
 
 export type TProject = {
     title: string,
@@ -12,4 +12,13 @@ export type TProject = {
         github: string
     },
     tech: string[]
-}
+};
+
+export type TArticle = {
+    slug: string,
+    title: string,
+    excerpt: string,
+    date: string,
+    content: string,
+    tags: string[],
+};
