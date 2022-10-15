@@ -11,7 +11,8 @@ const Blog: React.FC<{ articles: TArticle[] }> = ({ articles }) => {
             </Head>
             <div className="mx-auto max-w-3xl min-h-[calc(100vh_-_232px)] px-6">
                 <div className="p-8 border-b-2">
-                    <h1 className="font-black uppercase text-5xl text-center">All Things <em className="text-primary">Front-End</em></h1>
+                    <h1 className="font-black uppercase text-5xl text-center mb-2">All Things <em className="text-primary">Web</em></h1>
+                    <p className="text-center italic text-lg">One man&apos;s journey in web development</p>
                 </div>
                 <section>
                     {articles.map(x => <ArticlePreview key={x.slug} article={x} />)}

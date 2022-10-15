@@ -4,12 +4,6 @@ import { TArticle } from '../../../types/types'
 import Tag from './tag';
 
 const ArticlePreview: React.FC<{ article: TArticle }> = ({ article }) => {
-    const formattedDate = new Date(article.date).toLocaleDateString('en-US', {
-        day: 'numeric',
-        month: 'long',
-        year: 'numeric',
-    });
-
     const linkPath = `/blog/${article.slug}`;
 
     return (
@@ -18,7 +12,7 @@ const ArticlePreview: React.FC<{ article: TArticle }> = ({ article }) => {
                 <h2 className="font-black text-3xl hover:underline mb-2">
                     <Link href={linkPath}>{article.title}</Link>
                 </h2>
-                <p className='mb-3'>{formattedDate}</p>
+                <p className='mb-3'>{article.date}</p>
                 <div className='mb-3'>
                     {article.tags.map(x => <Tag key={x} tagName={x} />)}
                 </div>
