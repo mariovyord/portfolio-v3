@@ -34,10 +34,10 @@ export const projects = [
     {
         title: 'REST API',
         img: '/images/site/api-screenshot.png',
-        description: ' REST API for Questions and Answers app. SoftUni Exam Project.',
+        description: 'REST API for Kotkogram Web App | SoftUni Exam Project.',
         links: {
-            demo: 'https://questions-and-answers-rest.herokuapp.com/api',
-            github: 'https://github.com/mariovyord/questions-and-answers-rest-api'
+            demo: 'https://kotkogram-api.herokuapp.com/api',
+            github: 'https://github.com/mariovyord/kotkogram-api'
         },
         tech: [
             'JavaScript',
