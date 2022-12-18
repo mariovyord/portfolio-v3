@@ -13,7 +13,7 @@ const About = () => {
                 Hey! I build web apps with <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>Angular</span> and <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>React</span>. Express, Node, MongoDB are in my toolkit as well. I enjoy TypeScript and plan on learning Go and build some games with PixiJS in my free time.
             </p>
             <p className='pl-8'>
-                Currently I'm working as Junior Angular developer. And now more than ever I can relate to the famous quote:
+                Currently I&apos;m working as Junior Angular developer. And now more than ever I can relate to the famous quote:
             </p>
             <div className='p-4 text-center relative fill-primary flex gap-3 pl-8'>
                 <div className='animate-pulse'>

@@ -8,7 +8,7 @@ export type TProject = {
     img: string,
     description: string,
     links: {
-        demo: string,
+        demo: string | null,
         github: string
     },
     tech: string[]
