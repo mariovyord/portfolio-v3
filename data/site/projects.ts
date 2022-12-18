@@ -20,7 +20,7 @@ export const projects = [
         img: '/images/site/questions-and-asnwers.jpeg',
         description: 'Questions and Answers is ReactJS web app where you can ask a question and have the other users answer. SoftUni Exam Project.',
         links: {
-            demo: 'https://questions-and-answers-f1gh5.web.app/',
+            demo: null,
             github: 'https://github.com/mariovyord/questions-and-answers'
         },
         tech: [
@@ -36,7 +36,7 @@ export const projects = [
         img: '/images/site/api-screenshot.png',
         description: 'REST API for Kotkogram Web App | SoftUni Exam Project.',
         links: {
-            demo: 'https://kotkogram-api.herokuapp.com/api',
+            demo: null,
             github: 'https://github.com/mariovyord/kotkogram-api'
         },
         tech: [

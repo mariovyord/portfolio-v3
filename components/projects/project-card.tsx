@@ -18,9 +18,11 @@ const ProjectCard: React.FC<{ project: TProject, reverse: boolean }> = ({ projec
                         <p>{project.description}</p>
                     </div>
                     <div className='px-4 py-2 flex gap-4'>
-                        <div>
-                            <a target="_blank" rel="noreferrer" href={project.links.demo} className='text-primary font-bold hover:text-primary-focus fill-primary hover:fill-primary-focus'>Demo</a>
-                        </div>
+                        {project.links.demo ?
+                            <div>
+                                <a target="_blank" rel="noreferrer" href={project.links.demo} className='text-primary font-bold hover:text-primary-focus fill-primary hover:fill-primary-focus'>Demo</a>
+                            </div>
+                            : null}
                         <div>
                             <a target="_blank" rel="noreferrer" href={project.links.github} className='text-primary font-bold hover:text-primary-focus fill-primary hover:fill-primary-focus'>GitHub</a>
                         </div>

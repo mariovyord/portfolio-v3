@@ -7,13 +7,13 @@ import SectionHeading from '../common/section-heading';
 const About = () => {
     const biography = (
         <div className='flex flex-col gap-2'>
-            <p>const <span className='text-orange-400 hover:scale-125 inline-block transition-all bg-base'>FrontEndDeveloper</span> = ( &#123; ReactJS &#125; ) =&gt; &#123;</p>
+            <p>const <span className='text-orange-400 hover:scale-125 inline-block transition-all bg-base'>FrontEndDeveloper</span> = ( &#123; Angular, React &#125; ) =&gt; &#123;</p>
             <p className=' pl-4'>return (</p>
             <p className='pl-8'>
-                Hey! I enjoy building web apps with  <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>ReactJS</span>. Express, Node, MongoDB are fun as well. I study JavaScript and its ecosystem at <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>SoftUni Bulgaria</span> and on my own. My professional experience is in print as a Prepress Specialist, where I have worked on hundreds of books over the years.
+                Hey! I build web apps with <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>Angular</span> and <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>React</span>. Express, Node, MongoDB are in my toolkit as well. I enjoy TypeScript and plan on learning Go and build some games with PixiJS in my free time.
             </p>
             <p className='pl-8'>
-                My short-term goal is growing as a <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>Front-End Developer</span>. But as the famous quote goes:
+                Currently I'm working as Junior Angular developer. And now more than ever I can relate to the famous quote:
             </p>
             <div className='p-4 text-center relative fill-primary flex gap-3 pl-8'>
                 <div className='animate-pulse'>

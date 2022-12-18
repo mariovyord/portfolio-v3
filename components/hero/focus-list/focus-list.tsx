@@ -2,10 +2,17 @@ import React from 'react'
 import FocusItem from './focus-item';
 
 const FocusList = () => {
+    const learning = [
+        { link: '#about', text: 'currenly learning UI Router' },
+        { link: '#about', text: 'currenly learning Storybook' },
+        { link: '#about', text: 'currenly upgrading testing skills' },
+        { link: '#about', text: 'currenly getting better at git' },
+    ]
+
     const list = [
-        { link: '#about', text: 'focusing on JavaScript and TypeScript' },
-        { link: '#about', text: 'currenly learning Angular' },
-        { link: '#about', text: 'studying at SoftUni Bulgaria' },
+        { link: '#about', text: 'Junior Web Developer' },
+        { link: '#about', text: 'Angular && React' },
+        learning[Math.floor(Math.random() * learning.length)],
         { link: '#about', text: 'welcome to my website :)' },
     ];
 
@@ -17,8 +24,8 @@ const FocusList = () => {
             </div>
             <div className='p-4'>
                 <div>
-                    <p>Microsoft Windows [Version 10.0.19044.2006]</p>
-                    <p>(c) Microsoft Corporation. All rights reserved.</p>
+                    <p>Personal Website [Version 18.12.13:40.2022]</p>
+                    <p>(c) Mario Yordanov. All rights reserved.</p>
                 </div>
                 <br />
                 <div className='italic flex'>

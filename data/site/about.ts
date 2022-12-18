@@ -15,7 +15,7 @@ export const skills: TSkill[] = [
         classes: 'border-primary'
     },
     {
-        skillName: 'Redux Toolkit',
+        skillName: 'Angular',
         classes: 'border-primary'
     },
     {
@@ -47,7 +47,7 @@ export const skills: TSkill[] = [
         classes: 'border-primary'
     },
     {
-        skillName: 'Git / GitHub',
+        skillName: 'Git',
         classes: 'border-accent'
     },
     {
