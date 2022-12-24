@@ -34,11 +34,11 @@ const Header = () => {
             <div className='m-auto h-full max-w-screen-2xl text-primary'>
                 <div className='flex h-full min-w-full justify-between px-5'>
                     <div className='flex h-full items-center text-2xl font-black uppercase gap-4 '>
-                        <Link href='/' >
+                        <Link href='/'>
                             <Image className='pointer hover:cursor-pointer transition-all' src='/images/site/profile-pic.png' alt='profile picture' width={50} height={50} />
                         </Link>
-                        <Link href='/' >
-                            <a className='hidden sm:inline hover:text-primary-focus'>Mario Yordanov</a>
+                        <Link href='/' className='hidden sm:inline hover:text-primary-focus'>
+                            Mario Yordanov
                         </Link>
                     </div>
                     <nav className='text-xl font-bold uppercase'>
@@ -46,8 +46,8 @@ const Header = () => {
                             <ul className='flex h-full gap-6'>
                                 {links.map(
                                     link => <li key={link.title} className='flex items-center'>
-                                        <Link href={link.link}>
-                                            <a className="hover:text-primary-focus">{link.title}</a>
+                                        <Link href={link.link} className="hover:text-primary-focus">
+                                            {link.title}
                                         </Link>
                                     </li>)}
                             </ul>
@@ -63,8 +63,8 @@ const Header = () => {
                             {state.toggle && <ul className={`absolute top-20 left-0 w-screen bg-base p-5 text-center`}>
                                 {links.map(
                                     link => <li key={link.title} className='flex items-center'>
-                                        <Link href={link.link}>
-                                            <a className="hover:text-primary-focus my-4">{link.title}</a>
+                                        <Link href={link.link} className="hover:text-primary-focus my-4">
+                                            {link.title}
                                         </Link>
                                     </li>)}
                             </ul>}
