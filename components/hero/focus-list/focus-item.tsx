@@ -23,9 +23,9 @@ const FocusItem: React.FC<{ item: { text: string, link: string }, initialSpeed: 
     return (
         <>
             <p className={`hover:scale-110 transition-all duration-300 active:scale-95 `}>
-                <Link href={item.link}>
-                    <a>C:\Users\marioyordanov&gt;<span className={`${animation.index < item.text.length && 'animate-pulse'} text-primary`}>{item.text.substring(0, animation.index)}</span></a>
-                </Link>
+                <a href={item.link}>
+                    C:\Users\marioyordanov&gt;<span className={`${animation.index < item.text.length && 'animate-pulse'} text-primary`}>{item.text.substring(0, animation.index)}</span>
+                </a>
             </p>
         </>
     )
