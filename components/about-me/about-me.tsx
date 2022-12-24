@@ -10,7 +10,7 @@ const About = () => {
             <p>const <span className='text-orange-400 hover:scale-125 inline-block transition-all bg-base'>FrontEndDeveloper</span> = ( &#123; Angular, React &#125; ) =&gt; &#123;</p>
             <p className=' pl-4'>return (</p>
             <p className='pl-8'>
-                Hey! I build web apps with <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>Angular</span> and <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>React</span>. Express, Node, MongoDB are in my toolkit as well. I enjoy TypeScript and plan on learning Go and build some games with PixiJS in my free time.
+                Hey! I build web apps with <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>Angular</span> and <span className='text-primary hover:scale-125 inline-block transition-all bg-base'>React</span>. Express, Node, MongoDB are in my toolkit as well. I enjoy TypeScript and plan on learning Go.
             </p>
             <p className='pl-8'>
                 Currently I&apos;m working as Junior Angular developer. And now more than ever I can relate to the famous quote:
