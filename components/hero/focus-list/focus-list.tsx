@@ -24,7 +24,7 @@ const FocusList = () => {
             </div>
             <div className='p-4'>
                 <div>
-                    <p>Personal Website [Version 18.12.13:40.2022]</p>
+                    <p>Personal Website [Version 24.12.2022.10:25]</p>
                     <p>(c) Mario Yordanov. All rights reserved.</p>
                 </div>
                 <br />
