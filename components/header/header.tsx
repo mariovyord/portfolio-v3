@@ -23,10 +23,10 @@ const Header = () => {
             link: '/',
             title: 'Portfolio'
         },
-        {
-            link: '/blog',
-            title: 'Blog'
-        },
+        // {
+        //     link: '/blog',
+        //     title: 'Blog'
+        // },
     ]
 
     return (
